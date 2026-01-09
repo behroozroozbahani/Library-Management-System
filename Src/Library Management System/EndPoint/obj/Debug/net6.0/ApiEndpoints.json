@@ -1,0 +1,170 @@
+[
+  {
+    "ContainingType": "EndPoint.Controllers.AuthorsController",
+    "Method": "Delete",
+    "RelativePath": "api/Authors/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.AuthorsController",
+    "Method": "List",
+    "RelativePath": "api/Authors/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.AuthorsController",
+    "Method": "Save",
+    "RelativePath": "api/Authors/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "EndPoint.ModelDto.AuthorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "api/Books/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.BooksController",
+    "Method": "List",
+    "RelativePath": "api/Books/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.BooksController",
+    "Method": "Save",
+    "RelativePath": "api/Books/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "EndPoint.ModelDto.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.GenresController",
+    "Method": "Delete",
+    "RelativePath": "api/Genres/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.GenresController",
+    "Method": "List",
+    "RelativePath": "api/Genres/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.GenresController",
+    "Method": "Save",
+    "RelativePath": "api/Genres/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
+        "Type": "EndPoint.ModelDto.GenreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.PublishersController",
+    "Method": "Delete",
+    "RelativePath": "api/Publishers/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.PublishersController",
+    "Method": "List",
+    "RelativePath": "api/Publishers/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoint.Controllers.PublishersController",
+    "Method": "Save",
+    "RelativePath": "api/Publishers/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publisher",
+        "Type": "EndPoint.ModelDto.PublisherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
